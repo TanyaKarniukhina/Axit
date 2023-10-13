@@ -43,15 +43,13 @@
 
 .awesome-block-section {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .awesome-block-articles {
     width: 370px;
     display: inline-block;
-    text-align: center;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 .awesome-block-articles__images {
