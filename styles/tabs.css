@@ -88,8 +88,17 @@
     color: #FFF;
     border: none;
     font-family: 'Open Sans';
+    font-weight: 600;
     font-size: 18px;
     margin-left: 100px;
+}
+
+.tabs-block-left-side__download:hover {
+    background: #AB4949;
+}
+
+.tabs-block-left-side__download:active {
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
 
 .tabs-block-right-side {

@@ -52,11 +52,11 @@
     width: 370px;
     display: flex;
     flex-direction: column;
-    align-content: center;
 }
-.pricing-block-articles:nth-child(2) {
-    position: relative;
-    bottom: 20px;
+
+.pricing-block-articles:hover {
+    transition: 0.7s;
+    transform: translateY(-20px);
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.20));
 }
 
