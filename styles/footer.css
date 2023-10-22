@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.footer-block {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social-media {
+    width: 569.2px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 27.8px;
+}
+
+.footer-social-media__icons {
+    width: 54px;
+}
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
