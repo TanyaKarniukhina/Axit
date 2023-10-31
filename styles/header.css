@@ -20,6 +20,11 @@ header {
     justify-content: flex-end;
 }
 
+.header-menu__burger {
+    width: 24px;
+    display: none;
+}
+
 .header-menu__navigation {
     display: flex;
     width: 113.799px;
@@ -39,4 +44,26 @@ header {
 .header-menu__navigation:active {
     color: #FFF;
     background-color: #AB4949;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-block {
+        width: 95%;
+    }
+    .header-block__logo {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 797px) {
+    .header-block__logo {
+        margin-left: 20px;
+    }
+    .header-menu__navigation {
+        display: none;
+    }
+    .header-menu__burger {
+        display: flex;
+        margin-right: 35px;
+    }
 }

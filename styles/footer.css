@@ -31,3 +31,36 @@ footer {
     font-weight: 400;
     margin-bottom: 27px;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer-block {
+        width: 95%;
+    }
+    .footer-social-media {
+        width: 482px;
+        margin-bottom: 38px;
+    }
+    .footer-social-media__icons {
+        width: 45px;
+    }
+    .footer__text {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .footer-block {
+        width: 95%;
+    }
+    .footer-social-media {
+        width: 286px;
+        margin-bottom: 42px;
+    }
+    .footer-social-media__icons {
+        width: 26px;
+    }
+    .footer__text {
+        margin-bottom: 45px;
+    }
+}

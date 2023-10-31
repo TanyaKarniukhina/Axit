@@ -38,46 +38,45 @@
 .customers-block-section {
     width: 100%;
     display: flex;
-    flex-direction: row;
     padding-bottom: 64px;
+    justify-content: space-between;
 }
 
 .customers-block-tweets {
-    box-sizing: border-box;
-    width: 400px;
     display: flex;
-    justify-content: space-between;
     padding-top: 83px;
     flex-direction: column;
 }
 
 .customers-block-tweets-messages {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.customers-block-tweets-messages__text {
     width: 370px;
     height: 180px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     border-radius: 10px;
     background-color: #E2E2E2;
+    margin-bottom: 66px;
+}
+
+.customers-block-tweets-messages__text {
+    height: 180px;
+    display: flex;
+    align-items: center;
     color: #86878B;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 66px;
-    padding: 0px 25px 0px 25px;
+    padding: 20px 25px 0px 25px;
 }
 
 .customers-block-tweets-messages__images {
+    width: 30px;
+    height: 20px;
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 67px;
-    right: 300px;
+    top: 20px;
+    right: -70px;
 }
 
 .customers-block-tweets-people {
@@ -110,4 +109,125 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 400;
+}
+.customers-block-dots {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+.customers-block {
+    width: 95%;
+}
+.customers-block__title {
+    height: 120px;
+    font-size: 24px;
+}
+.customers-block-separator {
+    width: 142px;
+    margin-bottom: 32px;
+}
+.customers-block__subtitle {
+    font-size: 14px;
+}
+.customers-block-section {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.customers-block-tweets {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.customers-block-tweets-messages {
+    width: 317px;
+    margin-bottom: 66px;
+}
+.customers-block-tweets-messages__text {
+    font-size: 14px;
+    padding: 50px 25px 25px 25px;
+}
+.customers-block-tweets-messages__images {
+    width: 25.703px;
+    height: 20px;
+    top: 15px;
+    right: -62px;
+}
+.customers-block-tweets-people {
+    width: 317px;
+}
+.customers-block-tweets-people__photos {
+    height: 64px;
+    border-radius: 64px;
+}
+.customers-block-tweets-people-info {
+    margin-left: 22.54px; 
+}
+.customers-block-tweets-people__names {
+    height: 36px;
+    font-size: 18px;
+    padding-bottom: 9px;
+}
+.customers-block-tweets-people__job {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 667px) {
+    .customers-block {
+        width: 95%;
+    }
+    .customers-block__title {
+        height: 120px;
+        font-size: 24px;
+    }
+    .customers-block-separator {
+        width: 134px;
+        margin-bottom: 24px;
+    }
+    .customers-block__subtitle {
+        font-size: 14px;
+    }
+    .customers-block-section {
+        padding-bottom: 23px;
+    }
+    .customers-block-tweets {
+        padding-top: 24px;
+    }
+    .customers-block-tweets-messages {
+        width: 288px;
+    }
+    .customers-block-tweets-messages__text {
+        padding: 40px 25px 25px 25px;
+    }
+    .customers-block-tweets-messages__images {
+        width: 25.541px;
+        right: -55px;
+    }
+    .customers-block-tweets-people {
+        width: 288px;
+    }
+    .customers-block-tweets-people__photos {
+        height: 57px;
+        border-radius: 57px;
+    }
+    .customers-block-tweets-people-info {
+        margin-left: 22px; 
+    }
+    .customers-block-tweets-people__names {
+        font-size: 14px;
+    }
+    .customers-block-tweets-people__job {
+        font-size: 13px;
+    }
+    .customers-block-tweets:first-child {
+        display: none;
+    }
+    .customers-block-tweets:last-child {
+        display: none;
+    }
+    .customers-block-dots {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 31.51px;
+    }
 }

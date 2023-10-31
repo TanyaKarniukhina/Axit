@@ -10,9 +10,10 @@
 
 .banner-block {
     width: 1170px;
-    height: 1026px;
     margin: 0 auto;
     display: flex;
+    padding-top: 208px;
+    padding-bottom: 185px;
 }
 
 .banner-left-side {
@@ -24,6 +25,11 @@
 
 .banner-left-side-logo {
     margin-bottom: 72.88px;
+}
+
+.banner-left-side-logo__little {
+    display: none;
+    width: 183.099px;
 }
 
 .banner-left-side__title {
@@ -132,4 +138,114 @@
 
 .banner-form__start:active {
     box-shadow: 0px 0px 10px 0px #AB4949 inset;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-block {
+        padding-top: 137px;
+        padding-bottom: 106px;
+        width: 95%;
+    }
+    .banner-form-line {
+        width: 298px;
+    }
+    .banner-form__title {
+        font-size: 18px;
+    }
+    .banner-left-side-logo__little {
+        display: block;
+    }
+    .banner-left-side-logo {
+        margin-bottom: 37.61px;
+    }
+    .banner-left-side-logo__AX {
+        display: none;
+    }
+    .banner-left-side-logo__IT {
+        display: none;
+    }
+    .banner-left-side__title {
+        font-size: 36px;
+        margin-bottom: 41.49px;
+    }
+    .banner-left-side-separator {
+        width: 115.285px;
+        margin-bottom: 31px;
+    }
+    
+    .banner-left-side__subtitle {
+        font-size: 14px;
+        margin-bottom: 31.32px;
+    }
+    
+    .banner-left-side__download {
+        width: 183.099px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .banner-right-side {
+        margin: 0 auto;
+    }
+    .banner-left-side {
+        width: 100%;
+    }
+    .banner-block {
+        width: 95%;
+        padding-top: 84.12px;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+    .banner-form {
+        width: 288px;
+        margin-top: 56px;
+    }
+    .banner-left-side-logo {
+        display: none;
+    }
+    .banner-form-line {
+        width: 240px;
+        margin-left: 20px;
+    }
+    .banner-form__boxes {
+        margin-left: 20px;
+    }
+    .banner-form__title {
+        font-size: 18px;
+    }
+    .banner-left-side-logo__little {
+        display: block;
+    }
+    .banner-left-side-logo {
+        margin-bottom: 37.61px;
+    }
+    .banner-left-side-logo__AX {
+        display: none;
+    }
+    .banner-left-side-logo__IT {
+        display: none;
+    }
+    .banner-left-side__title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 43.88px;
+    }
+    .banner-left-side-separator {
+        width: 115.285px;
+        margin: 0 auto;
+    }
+    
+    .banner-left-side__subtitle {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+    
+    .banner-left-side__download {
+        width: 288px;
+        height: 50px;
+        margin: 0 auto;
+    }
 }

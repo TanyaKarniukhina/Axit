@@ -109,3 +109,97 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .pricing-block {
+        width: 95%;
+    }
+    .pricing-block__title {
+        height: 120px;
+        font-size: 24px;
+        padding-top: 32px;
+    }
+    .pricing-block-separator {
+        width: 143px;
+        margin-bottom: 32px;
+    }
+    .pricing-block__subtitle {
+        font-size: 14px;
+    }
+    .pricing-block-section {
+        padding-top: 49.74px;
+        padding-bottom: 50px;
+    }
+    .pricing-block-articles {
+        width: 317px;
+    }
+    .pricing-block-articles__plan {
+        height: 53.208px;
+        font-size: 24px;
+    }
+    .pricing-block-articles__price {
+        height: 88.679px;
+        font-size: 36px;
+    } 
+    .pricing-block-articles__free {
+        height: 44.34px;
+    }
+    .pricing-block-articles__space {
+        height: 44.34px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .pricing-block-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing-block-articles {
+        margin-bottom: 27px;
+        margin-right: 20.86px;
+    }
+}
+
+@media screen and (max-width: 737px) {
+    .pricing-block {
+        width: 95%;
+    }
+    .pricing-block__title {
+        height: 120px;
+        font-size: 24px;
+        padding-top: 32px;
+    }
+    .pricing-block-separator {
+        width: 134px;
+        margin-bottom: 24px;
+    }
+    .pricing-block__subtitle {
+        font-size: 14px;
+        width: 288px;
+        margin: 0 auto;
+    }
+    .pricing-block-articles {
+        width: 288px;
+    }
+    .pricing-block-articles__plan {
+        height: 47.059px;
+        font-size: 18px;
+    }
+    .pricing-block-articles__price {
+        height: 78.431px;
+        font-size: 24px;
+    }
+    .pricing-block-articles__free {
+        height: 39.2px;
+    }
+    .pricing-block-articles__space {
+        height: 39.2px;
+    } 
+}
+
+@media screen and (max-width: 632px) {
+    .pricing-block-articles {
+        margin-right: 0px;
+    }
+}

@@ -65,3 +65,45 @@
     border: 2px solid #AB4949;
     background-color: #AB4949;
 }
+
+@media screen and (max-width: 1200px) {
+    .design-block {
+        width: 95%;
+    }
+    .design-block__title {
+        height: 120px;
+        font-size: 24px;
+    }
+    .design-block-separator {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+    .design-block__subtitle {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .design-block__download {
+        width: 318px;
+        height: 58px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .design-block {
+        width: 95%;
+    }
+    .design-block-separator {
+        width: 134px;
+        margin-bottom: 16px;
+    }
+    .design-block__subtitle {
+        margin-bottom: 50px;
+    }
+    .design-block__download {
+        width: 287px;
+        height: 50px;
+        margin-bottom: 58px;
+    }
+}
